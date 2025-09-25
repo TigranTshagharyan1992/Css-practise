@@ -48,7 +48,7 @@
 .cta{
     padding: 100px;
     text-align: center;
-    background-color: #956262;
+    background-color: hsl(hue, saturation, lightness)
 }
 .cta__description{
     color: blueviolet;
