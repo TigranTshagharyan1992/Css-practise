@@ -1,5 +1,6 @@
 * {
     background-color: aliceblue;
+    box-sizing: border-box;
 }
 .hero{
     padding: 100px;
@@ -63,4 +64,50 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
+}
+.video{
+    text-align: center;
+    padding: 100px;
+    font-weight: 500x;
+    height: 100px;
+}
+.video__title{
+    color: darkgreen;
+    font-size: 3.2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.video__description{
+    color: darkslategray;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    text-align: right;
+    letter-spacing: 0.5rem;
+}
+.video__controls{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.video__button{
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+}
+.video__button--primary{
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+}
+.video__container{
+    margin-top: 20px;
+    background-color: #ccc;
+    height: 500px;
+    width: 100%;
 }
