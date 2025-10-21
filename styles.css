@@ -69,7 +69,6 @@
     text-align: center;
     padding: 100px;
     font-weight: 500x;
-    height: 100px;
 }
 .video__title{
     color: darkgreen;
@@ -108,7 +107,6 @@
 .video__container{
     margin-top: 20px;
     background-color: #ccc;
-    height: 500px;
     width: 100%;
     box-shadow: 1px 4px 6px 9px rgb(0,0,0,55);
 }
@@ -129,7 +127,7 @@
 .programs__card{
     background-color: #956262;
     padding: 30px;
-    width: 30%;
+    flex-basis: 30%;
     height: 100px;
 }
 
